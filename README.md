@@ -101,7 +101,7 @@ Relaciones:
 
 •	Admin-Verificación: Un admin puede revisar muchas verificaciones, mientras que cada verificación es revisada por un único admin. (1: N)
 
-# Diagrama de Bloques
+## Diagrama de Bloques
 Es un diagrama que repesenta en forma de bloques procesos e interacciones y sus relaciones en un sistema.
 Este diagrama fue separado en 3. Diagrama de Bloques del Usuario, del Dueño y del Admin donde cada uno contiene sus propios procesos.
 
@@ -122,7 +122,11 @@ Dueño: Este se registra e inicia sesión, donde tiene la opción de:
 Admin: Este se registra e inicia sesión, donde tiene la opción de:
 • Gestión de solicitudes. Donde puede rechazarla o aprobarla:
   • Solicitud rechazada.
-  • Solicitud aprobada.  
+  • Solicitud aprobada.
+
+## Diagrama de Secuencia
+Es un diagrama que representa visualmente como interactuan los distintos objetos y entidades en un sistema y el tiempo que toman.
+> La explicación de este diagrama se encuentra dentro de la carpeta 'Diagramas' en la carpeta llamada 'Explicación de diagrama de secuencia'.
 
 
 
