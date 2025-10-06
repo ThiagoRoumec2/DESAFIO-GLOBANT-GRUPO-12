@@ -7,7 +7,7 @@ CanchApp es una app-web destinada a la reserva y gestión de canchas de pádel. 
 
 # Diagramas
 
-# Diagrama de Flujo
+## Diagrama de Flujo
 Un diagrama de flujo es un diagrama que permite ver paso a paso el flujo de los datos de un programa.
 Para este diagrama consideramos las caracteristicas principales donde se ingresa a la aplicación con opción de registrarse o iniciar sesión. Ese inicar sesión es un bucle donde si los datos no coinciden con los registrados nunca podrá ingresar al programa.
 Una vez ingresado el sistema obtiene el rol del usuario y dependiendo de su rol, realiza distintas acciones.
@@ -18,7 +18,7 @@ Admin: Opción de aceptar solicitud de usuario para ser dueño.
 Esto nos permitió visualizar antes de realizar el programa como va a ser y como es su flujo de datos.
 
 
-# Diagrama UML
+## Diagrama UML
 Un diagrama UML es un diagrama que permite ver como se relacionan las diferentes funcionalidades de los actores del programa entre ellos y con el sistema.
 Para este diagrama detectamos tres actores:
 
@@ -58,10 +58,11 @@ Sus casos de usos:
 •	Iniciar sesión
 •	Administrar solicitud
 
-# Diagrama de Esquema de Base de Datos
+## Diagrama de Esquema de Base de Datos
 Este diagrama representa la estructura de la base de datos y las relaciones entre las distintas entidades del sistema. Cada entidad refleja un objeto del proyecto, como usuarios, canchas, reservas, valoraciones, etc. Las relaciones muestran cómo interactúan entre sí. Este diseño garantiza la integridad de los datos y facilita la gestión eficiente de la información.
 
-Entidades Principales y sus Campos
+Entidades Principales y sus Campos:
+
 •	Usuario: id_usuario, nombre, email, contraseña, foto.
 
 •	Favoritos: id_favorito, id_usuario, id_cancha, fecha_agregado. 
@@ -78,7 +79,8 @@ Entidades Principales y sus Campos
 
 • Valoración: id_valoracion, valor, comentario, id_usuario, id_cancha.
 
-Relaciones 
+Relaciones:
+
 •	Usuario-Reserva: Un solo usuario puede realizar muchas reservas, mientras que cada reserva pertenece a un único usuario. (1: N) 
 
 •	Usuario-Favoritos: Un solo usuario puede añadir muchas canchas a favoritos, mientras que cada favorito pertenece a un único usuario. (1: N) 
