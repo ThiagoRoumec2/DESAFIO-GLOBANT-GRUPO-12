@@ -47,7 +47,8 @@ o	&lt;&lt;extend&gt;&gt; Ver historial de reservas.
 •	Cancelar reserva
 o	&lt;&lt;include&gt;&gt; Notificar cambios de reserva.
 •	Notificar cambios de reserva
---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
 •	Dueño: Actor externo que accede a la plataforma para publicar y gestionar canchas.
 
 El actor “Dueño de cancha” se considera una generalización del actor “Usuario”, ya que hereda todas las acciones disponibles para un usuario común y además cuenta con funciones adicionales específicas de su rol.
@@ -55,7 +56,8 @@ El actor “Dueño de cancha” se considera una generalización del actor “Us
 •	Agregar cancha
 •	Editar cancha
 •	Revisar reservas
---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
 •	Administrador: Actor interno que administra roles, gestiona la base de datos y consulta estados del sistema.
 
 Sus casos de usos:
