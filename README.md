@@ -33,28 +33,42 @@ Sus casos de uso:
 
 •	Iniciar Sesión
 o	&lt;&lt;extend&gt;&gt; Registrarse
+
 •	Registrarse
+
 •	Reservar cancha
+
 o	&lt;&lt;include&gt;&gt; Notificar cambios de reserva.
+
 •	Buscar canchas
 o	&lt;&lt;extend&gt;&gt; Ver detalles de cancha.
+
 •	Ver detalles de cancha
 o	&lt;&lt;extend&gt;&gt; Reservar cancha.
+
 •	Ver perfil
 o	&lt;&lt;extend&gt;&gt; Ver historial de reservas.
+
 •	Ver historial de reservas
+
 •	Solicitar ser dueño
+
 •	Cancelar reserva
 o	&lt;&lt;include&gt;&gt; Notificar cambios de reserva.
+
 •	Notificar cambios de reserva
 
 
 •	Dueño: Actor externo que accede a la plataforma para publicar y gestionar canchas.
 
 El actor “Dueño de cancha” se considera una generalización del actor “Usuario”, ya que hereda todas las acciones disponibles para un usuario común y además cuenta con funciones adicionales específicas de su rol.
+
 •	Eliminar cancha
+
 •	Agregar cancha
+
 •	Editar cancha
+
 •	Revisar reservas
 
 
@@ -63,6 +77,7 @@ El actor “Dueño de cancha” se considera una generalización del actor “Us
 Sus casos de usos:
 
 •	Iniciar sesión
+
 •	Administrar solicitud
 
 ## Diagrama de Esquema de Base de Datos
