@@ -7,7 +7,7 @@ CanchApp es una app-web destinada a la reserva y gestión de canchas de pádel. 
 
 # Diagramas
 
-#2 Diagrama de Flujo:
+# Diagrama de Flujo
 Un diagrama de flujo es un diagrama que permite ver paso a paso el flujo de los datos de un programa.
 Para este diagrama consideramos las caracteristicas principales donde se ingresa a la aplicación con opción de registrarse o iniciar sesión. Ese inicar sesión es un bucle donde si los datos no coinciden con los registrados nunca podrá ingresar al programa.
 Una vez ingresado el sistema obtiene el rol del usuario y dependiendo de su rol, realiza distintas acciones.
@@ -18,7 +18,8 @@ Admin: Opción de aceptar solicitud de usuario para ser dueño.
 Esto nos permitió visualizar antes de realizar el programa como va a ser y como es su flujo de datos.
 
 
-*Diagrama UML: Un diagrama UML es un diagrama que permite ver como se relacionan las diferentes funcionalidades de los actores del programa entre ellos y con el sistema.
+# Diagrama UML
+Un diagrama UML es un diagrama que permite ver como se relacionan las diferentes funcionalidades de los actores del programa entre ellos y con el sistema.
 Para este diagrama detectamos tres actores:
 
 •	Usuario: Actor externo que accede a la plataforma para consultar, reservar y gestionar reservas.
@@ -56,9 +57,9 @@ Sus casos de usos:
 
 •	Iniciar sesión
 •	Administrar solicitud
-////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-*Diagrama de Esquema de Base de Datos: Este diagrama representa la estructura de la base de datos y las relaciones entre las distintas entidades del sistema. Cada entidad refleja un objeto del proyecto, como usuarios, canchas, reservas, valoraciones, etc. Las relaciones muestran cómo interactúan entre sí. Este diseño garantiza la integridad de los datos y facilita la gestión eficiente de la información.
+# Diagrama de Esquema de Base de Datos
+Este diagrama representa la estructura de la base de datos y las relaciones entre las distintas entidades del sistema. Cada entidad refleja un objeto del proyecto, como usuarios, canchas, reservas, valoraciones, etc. Las relaciones muestran cómo interactúan entre sí. Este diseño garantiza la integridad de los datos y facilita la gestión eficiente de la información.
 
 Entidades Principales y sus Campos
 •	Usuario: id_usuario, nombre, email, contraseña, foto.
@@ -90,7 +91,8 @@ Relaciones
 •	Admin-Verificación: Un admin puede revisar muchas verificaciones, mientras que cada verificación es revisada por un único admin. (1: N)
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-*Diagrama de Bloques: Es un diagrama que repesenta en forma de bloques procesos e interacciones y sus relaciones en un sistema.
+# Diagrama de Bloques
+Es un diagrama que repesenta en forma de bloques procesos e interacciones y sus relaciones en un sistema.
 Este diagrama fue separado en 3. Diagrama de Bloques del Usuario, del Dueño y del Admin donde cada uno contiene sus propios procesos.
 
 Usuario: Este se registra e inicia sesión, donde tiene 2 interacciones:
@@ -110,13 +112,12 @@ Dueño: Este se registra e inicia sesión, donde tiene la opción de:
 Admin: Este se registra e inicia sesión, donde tiene la opción de:
 • Gestión de solicitudes. Donde puede rechazarla o aprobarla:
   • Solicitud rechazada.
-  • Solicitud aprobada.
-////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////  
+  • Solicitud aprobada.  
 
 
 
 
-#Herramientas Utilizadas
+# Herramientas Utilizadas
 
 Para nuestros diagramas utilizamos MIRO y draw.io.
 Utilizamos miro ya que es una herramienta colaborativa que nos permite hacer diagramas muy comodamente pero con desventaja que su versión gratuita no permite modificar o utilizar 3 archivos distintos (Hay que borrarlos para liberar ese tope).
