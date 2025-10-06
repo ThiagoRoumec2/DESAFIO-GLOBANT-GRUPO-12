@@ -32,20 +32,20 @@ Para este diagrama detectamos tres actores:
 Sus casos de uso:
 
 •	Iniciar Sesión
-o	(<<extend>>) Registrarse
+o	&lt;&lt;extend&gt;&gt; Registrarse
 •	Registrarse
 •	Reservar cancha
-o	(<<include>>) Notificar cambios de reserva.
+o	&lt;&lt;include&gt;&gt; Notificar cambios de reserva.
 •	Buscar canchas
-o	(<<extend>>) Ver detalles de cancha.
+o	&lt;&lt;extend&gt;&gt; Ver detalles de cancha.
 •	Ver detalles de cancha
-o	(<<extend>>) Reservar cancha.
+o	&lt;&lt;extend&gt;&gt; Reservar cancha.
 •	Ver perfil
-o	(<<extend>>) Ver historial de reservas.
+o	&lt;&lt;extend&gt;&gt; Ver historial de reservas.
 •	Ver historial de reservas
 •	Solicitar ser dueño
 •	Cancelar reserva
-o	(<<include>>) Notificar cambios de reserva.
+o	&lt;&lt;include&gt;&gt; Notificar cambios de reserva.
 •	Notificar cambios de reserva
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 •	Dueño: Actor externo que accede a la plataforma para publicar y gestionar canchas.
