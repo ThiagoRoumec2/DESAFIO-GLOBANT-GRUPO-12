@@ -14,11 +14,11 @@ Para este diagrama consideramos las caracteristicas principales donde se ingresa
 
 Una vez ingresado el sistema obtiene el rol del usuario y dependiendo de su rol, realiza distintas acciones.
 
-Jugador: Opción de ser dueño, reservar cancha y cancelar reserva.
+**Jugador**: Opción de ser dueño, reservar cancha y cancelar reserva.
 
-Dueño: Opción de crear cancha.
+**Dueño**: Opción de crear cancha.
 
-Admin: Opción de aceptar solicitud de usuario para ser dueño.
+**Admin**: Opción de aceptar solicitud de usuario para ser dueño.
 
 Esto nos permitió visualizar antes de realizar el programa como va a ser y como es su flujo de datos.
 
@@ -27,7 +27,7 @@ Esto nos permitió visualizar antes de realizar el programa como va a ser y como
 Un diagrama UML es un diagrama que permite ver como se relacionan las diferentes funcionalidades de los actores del programa entre ellos y con el sistema.
 Para este diagrama detectamos tres actores:
 
-•	Usuario: Actor externo que accede a la plataforma para consultar, reservar y gestionar reservas.
+**Usuario**: Actor externo que accede a la plataforma para consultar, reservar y gestionar reservas.
 
 Sus casos de uso:
 
@@ -59,7 +59,7 @@ o	&lt;&lt;include&gt;&gt; Notificar cambios de reserva.
 •	Notificar cambios de reserva
 
 
-•	Dueño: Actor externo que accede a la plataforma para publicar y gestionar canchas.
+**Dueño**: Actor externo que accede a la plataforma para publicar y gestionar canchas.
 
 El actor “Dueño de cancha” se considera una generalización del actor “Usuario”, ya que hereda todas las acciones disponibles para un usuario común y además cuenta con funciones adicionales específicas de su rol.
 
@@ -72,7 +72,7 @@ El actor “Dueño de cancha” se considera una generalización del actor “Us
 •	Revisar reservas
 
 
-•	Administrador: Actor interno que administra roles, gestiona la base de datos y consulta estados del sistema.
+**Administrador**: Actor interno que administra roles, gestiona la base de datos y consulta estados del sistema.
 
 Sus casos de usos:
 
@@ -85,23 +85,23 @@ Este diagrama representa la estructura de la base de datos y las relaciones entr
 
 Entidades Principales y sus Campos:
 
-•	Usuario: id_usuario, nombre, email, contraseña, foto.
+•	**Usuario**: id_usuario, nombre, email, contraseña, foto.
 
-•	Favoritos: id_favorito, id_usuario, id_cancha, fecha_agregado. 
+•	**Favoritos**: id_favorito, id_usuario, id_cancha, fecha_agregado. 
 
-•	Reserva: id_reserva, fecha, hora_inicio, hora_final, id_usuario, id_cancha, espacios_reservados, jugadores_reservados, teléfono, observaciones, estado. 
+•	**Reserva**: id_reserva, fecha, hora_inicio, hora_final, id_usuario, id_cancha, espacios_reservados, jugadores_reservados, teléfono, observaciones, estado. 
 
-•	Cancha: id_cancha, id_duenio, nombre, lugar, foto, bio, valoración, precio. 
+•	**Cancha**: id_cancha, id_duenio, nombre, lugar, foto, bio, valoración, precio. 
 
-•	Dueño: id_duenio, id_usuario, nombre, email, contraseña. 
+•	**Dueño**: id_duenio, id_usuario, nombre, email, contraseña. 
 
-•	Verificación: id_verificacion, estado, fecha, observación, id_usuario, id_admin.
+•	**Verificación**: id_verificacion, estado, fecha, observación, id_usuario, id_admin.
 
-•	Admin: id_admin, nombre, email, contraseña.
+•	**Admin**: id_admin, nombre, email, contraseña.
 
-• Valoración: id_valoracion, valor, comentario, id_usuario, id_cancha.
+• **Valoración**: id_valoracion, valor, comentario, id_usuario, id_cancha.
 
-Relaciones:
+**Relaciones**:
 
 •	Usuario-Reserva: Un solo usuario puede realizar muchas reservas, mientras que cada reserva pertenece a un único usuario. (1: N) 
 
@@ -127,7 +127,7 @@ Relaciones:
 Es un diagrama que repesenta en forma de bloques procesos e interacciones y sus relaciones en un sistema.
 Este diagrama fue separado en 3. Diagrama de Bloques del Usuario, del Dueño y del Admin donde cada uno contiene sus propios procesos.
 
-Usuario: Este se registra e inicia sesión, donde tiene 2 interacciones:
+**Usuario**: Este se registra e inicia sesión, donde tiene 2 interacciones:
 • Solicitud para ser dueño.
 • Búsqueda y selección de cancha. Donde esta en caso de estar disponible:
   • Reservación de cancha.
@@ -135,13 +135,13 @@ Usuario: Este se registra e inicia sesión, donde tiene 2 interacciones:
   • Generación de código único de reserva.
   • Valorar o comentar cancha.
 
-Dueño: Este se registra e inicia sesión, donde tiene la opción de:
+**Dueño**: Este se registra e inicia sesión, donde tiene la opción de:
 • Creación de cancha.
 • Validación de datos.
 • Cancha creada.
 • Gestión de cancha.
 
-Admin: Este se registra e inicia sesión, donde tiene la opción de:
+**Admin**: Este se registra e inicia sesión, donde tiene la opción de:
 • Gestión de solicitudes. Donde puede rechazarla o aprobarla:
   • Solicitud rechazada.
   • Solicitud aprobada.
