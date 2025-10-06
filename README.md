@@ -80,16 +80,24 @@ Entidades Principales y sus Campos
 
 Relaciones 
 •	Usuario-Reserva: Un solo usuario puede realizar muchas reservas, mientras que cada reserva pertenece a un único usuario. (1: N) 
+
 •	Usuario-Favoritos: Un solo usuario puede añadir muchas canchas a favoritos, mientras que cada favorito pertenece a un único usuario. (1: N) 
+
 •	Usuario-Verificación: Un solo usuario puede solicitar muchas verificaciones, mientras que cada verificación pertenece a un único usuario. (1: N) 
+
 •	Usuario-Dueño: Un usuario puede ser un dueño y cada dueño corresponde a un único usuario. (1:1)
+
 • Usuario-Valoración: Un usuario puede otorgar muchas valoraciones y cada valoración corresponde a un único usuario. (1: N)
+
 •	Dueño-Cancha: Un dueño puede registrar muchas canchas, mientras que cada cancha pertenece a un único dueño. (1: N) 
+
 •	Cancha-Reserva: Una cancha puede tener muchas reservas, mientras que cada reserva está asignada a una única cancha. (1: N) 
+
 •	Cancha-Favoritos: Una cancha puede estar en los favoritos de muchos usuarios, mientras que cada favorito pertenece a una única cancha. (1: N)
+
 • Cancha-Valoración: Una cancha puede tener muchas valoraciones, mientras que cada valoración corresponde a una única cancha. (1: N)
+
 •	Admin-Verificación: Un admin puede revisar muchas verificaciones, mientras que cada verificación es revisada por un único admin. (1: N)
-////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 # Diagrama de Bloques
 Es un diagrama que repesenta en forma de bloques procesos e interacciones y sus relaciones en un sistema.
