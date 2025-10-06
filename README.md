@@ -5,7 +5,7 @@ Repositorio donde se encuentra el desafío realizado propuesto por Juan Pablo Pi
 
 CanchApp es una app-web destinada a la reserva y gestión de canchas de pádel. Este permite a los usuarios reservar turnos de canchas disponibles, además de crear una petición para ser dueño, la cual será aceptada o rechazada por un admin, donde en caso de ser aceptada, el usuario obtendrá las caracteristicas de un dueño. Un dueño puede tanto reservar como también crear y gestionar sus propias canchas. Estas reservas se representan con un código único por cada una, además de un historial, que permite un manejo más eficiente de estas sin recurrir a planillas físicas.
 
-#Diagramas
+# Diagramas
 
 *Diagrama de Flujo: Un diagrama de flujo es un diagrama que permite ver paso a paso el flujo de los datos de un programa.
 Para este diagrama consideramos las caracteristicas principales donde se ingresa a la aplicación con opción de registrarse o iniciar sesión. Ese inicar sesión es un bucle donde si los datos no coinciden con los registrados nunca podrá ingresar al programa.
@@ -15,8 +15,6 @@ Dueño: Opción de crear cancha.
 Admin: Opción de aceptar solicitud de usuario para ser dueño.
 
 Esto nos permitió visualizar antes de realizar el programa como va a ser y como es su flujo de datos.
-
-/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
 *Diagrama UML: Un diagrama UML es un diagrama que permite ver como se relacionan las diferentes funcionalidades de los actores del programa entre ellos y con el sistema.
