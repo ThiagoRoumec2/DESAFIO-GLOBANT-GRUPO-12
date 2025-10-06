@@ -7,7 +7,8 @@ CanchApp es una app-web destinada a la reserva y gestión de canchas de pádel. 
 
 # Diagramas
 
-*Diagrama de Flujo: Un diagrama de flujo es un diagrama que permite ver paso a paso el flujo de los datos de un programa.
+#2 Diagrama de Flujo:
+Un diagrama de flujo es un diagrama que permite ver paso a paso el flujo de los datos de un programa.
 Para este diagrama consideramos las caracteristicas principales donde se ingresa a la aplicación con opción de registrarse o iniciar sesión. Ese inicar sesión es un bucle donde si los datos no coinciden con los registrados nunca podrá ingresar al programa.
 Una vez ingresado el sistema obtiene el rol del usuario y dependiendo de su rol, realiza distintas acciones.
 Usuario: Opción de ser dueño, reservar cancha y cancelar reserva.
